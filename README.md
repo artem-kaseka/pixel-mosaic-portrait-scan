@@ -2,13 +2,18 @@
 
 Original interactive procedural 3D sculptural bust rendered as a flat-tile pixel mosaic with live two-digit quantizer numerals, horizontal band displacement, traveling scanline resolution, edge-tile dispersion, and pointer disturbance.
 
+**Live demo:** https://artem-kaseka.github.io/pixel-mosaic-portrait-scan/
+
+[![KORVA — LATENT RELIEF 04 Preview](./preview.webp)](https://github.com/artem-kaseka/pixel-mosaic-portrait-scan/releases/download/v1.0.0/pixel-mosaic-portrait-scan-1080p60.mp4)
+
+**[Download / Watch full 1080p60 MP4 with stereo audio (28.9 MB)](https://github.com/artem-kaseka/pixel-mosaic-portrait-scan/releases/download/v1.0.0/pixel-mosaic-portrait-scan-1080p60.mp4)**
+
 ## Files
 
 - `index.html` — Full-viewport standalone entry point (open directly in any modern browser).
 - `mosaic.js` — Pure Canvas2D procedural 3D SDF sculptural bust raymarcher, deterministic simulation engine, numeral sprite atlas, and architectural typography overlay.
 - `capture.mjs` — Deterministic zero-dependency headless Chrome (CDP) + `ffmpeg` 1080p60 capture pipeline with subtle original synthesized stereo scan ambience.
-- `pixel-mosaic-portrait-scan-1080p60.mp4` — Deterministic 15.0s 1920×1080 60fps H.264 High (`yuv420p`, `+faststart`) capture.
-- `stills/` — Extracted QA stills from the encoded MP4.
+- `preview.webp` — Inline looping WebP preview generated from the deterministic 1080p60 capture.
 
 ## Live Controls
 
