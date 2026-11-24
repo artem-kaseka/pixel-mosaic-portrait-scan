@@ -1,0 +1,6 @@
+*.mp4
+*.mkv
+*.wav
+stills/
+.tmp_chrome_profile_*
+.DS_Store
